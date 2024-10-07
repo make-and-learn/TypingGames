@@ -15,21 +15,6 @@
 - CSS3
 - JavaScript (ES6+)
 
-## プロジェクト構造
-
-typing-game/
-│
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ ├── word.js
-│ ├── timer.js
-│ ├── game.js
-│ ├── ui.js
-│ └── main.js
-└── README.md
-
 ## セットアップ
 
 1. このリポジトリをクローンまたはダウンロードします。
