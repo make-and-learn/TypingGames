@@ -1,0 +1,51 @@
+/* ページ全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    height: 100vh; /* ビューポートの高さいっぱいに設定 */
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* ゲームコンテナのスタイル */
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 影をつける */
+}
+
+/* ゲーム部分のスタイル */
+#game {
+    margin-bottom: 1rem;
+}
+
+/* タイピングする単語のスタイル */
+#word {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* 入力フィールドのスタイル */
+#input {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+/* タイマーとスコアのスタイル */
+#timer, #score {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* スタートボタンのスタイル */
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer; /* ホバー時にカーソルを変更 */
+}
